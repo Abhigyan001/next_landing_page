@@ -9,7 +9,7 @@ export const data: Array<Testimonial> = [
     user: {
       id: 1,
       name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      professional: 'Full-Stack Developer',
       photo: '1.jpg',
     },
   },
@@ -33,7 +33,7 @@ export const data: Array<Testimonial> = [
     user: {
       id: 1,
       name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      professional: 'Frontend Designer',
       photo: '3.jpg',
     },
   },
@@ -45,7 +45,7 @@ export const data: Array<Testimonial> = [
     user: {
       id: 1,
       name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      professional: 'Backend Developer',
       photo: '4.jpg',
     },
   },
@@ -57,7 +57,7 @@ export const data: Array<Testimonial> = [
     user: {
       id: 1,
       name: 'Ashley Graham',
-      professional: 'Back-End Developer',
+      professional: 'iOS Developer',
       photo: '5.jpg',
     },
   },

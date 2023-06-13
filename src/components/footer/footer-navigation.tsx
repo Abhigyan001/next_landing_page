@@ -8,7 +8,7 @@ import { FooterSectionTitle } from '@/components/footer'
 
 const courseMenu: Array<Navigation> = [
   {
-    label: 'UI/UX Design',
+    label: 'UI/UX Development',
     path: '#',
   },
   {
@@ -16,11 +16,11 @@ const courseMenu: Array<Navigation> = [
     path: '#',
   },
   {
-    label: 'Machine Learning',
+    label: 'Frontend Development',
     path: '#',
   },
   {
-    label: 'Web Development',
+    label: 'Backend Development',
     path: '#',
   },
 ]
@@ -60,7 +60,7 @@ const FooterNavigation: FC = () => {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} md={4}>
-        <FooterSectionTitle title="Course" />
+        <FooterSectionTitle title="Courses" />
         {courseMenu.map(({ label, path }, index) => (
           <NavigationItem key={index + path} label={label} path={/* path */ '#'} />
         ))}
